@@ -1,0 +1,25 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "configuration",
+            "type": "shell",
+            "command": "cmake -S . -B build -DPICO_BOARD=rp2040_4mb",
+            "group": "build"
+        },
+        {
+            "label": "build",
+            "type": "shell",
+            "command": "cmake --build build -j10",
+            "group": "build"
+        },
+        {
+            "label": "clean",
+            "type": "shell",
+            "command": "cmake --build build --target clean",
+            "group": "build"
+        }
+    ]
+}
