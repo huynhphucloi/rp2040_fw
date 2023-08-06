@@ -1,15 +1,17 @@
 #ifndef SRC_HW_HW_H_
 #define SRC_HW_HW_H_
 
-#ifdef _cplusplus
+#ifdef __cplusplus
     extern "C" {
 #endif
 
 #include "hw_def.h"
 
+#include "led.h"
+
 void hwInit(void);
 
-#ifdef _cplusplus
+#ifdef __cplusplus
     }
 #endif
 

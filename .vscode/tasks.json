@@ -20,6 +20,12 @@
             "type": "shell",
             "command": "cmake --build build --target clean",
             "group": "build"
+        },
+        {
+            "label": "flash",
+            "type": "shell",
+            "command": "./tools/picotool load -x /Users/loihuynh/Documents/rp2040_fw/build/src/rp2040_4mb_fw.bin",
+            "group": "build"
         }
     ]
 }
