@@ -11,7 +11,7 @@ typedef struct
 
 static const led_tbl_t led_tbl[LED_MAX_CH] = 
 {
-    {25, 1, 0},
+    {25, _DEF_HIGH, _DEF_LOW},
 };
 
 void ledInit(void)

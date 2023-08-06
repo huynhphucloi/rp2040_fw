@@ -4,4 +4,5 @@
 void hwInit(void)
 {
     ledInit();
+    // gpioInit();
 }

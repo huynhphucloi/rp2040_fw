@@ -8,6 +8,7 @@
 #include "hw_def.h"
 
 #include "led.h"
+#include "gpio.h"
 
 void hwInit(void);
 
