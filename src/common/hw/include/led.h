@@ -1,8 +1,8 @@
 #ifndef SRC_HW_LED_H_
 #define SRC_HW_LED_H_
 
-#ifdef _cplusplus
-    extern "C" {
+#ifdef __cplusplus
+extern "C" {
 #endif
 
 #include "hw_def.h"
@@ -17,7 +17,7 @@ void ledToggle(uint8_t ch);
 
 #endif
 
-#ifdef _cplusplus
+#ifdef __cplusplus
     }
 #endif
 
