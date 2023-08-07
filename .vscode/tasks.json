@@ -24,7 +24,7 @@
         {
             "label": "flash",
             "type": "shell",
-            "command": "./tools/picotool load -x /Users/loihuynh/Documents/rp2040_fw/build/src/rp2040_4mb_fw.bin",
+            "command": "cp /Users/loihuynh/Documents/rp2040_fw/build/src/rp2040_4mb_fw.uf2 /Volumes/RPI-RP2/",
             "group": "build"
         }
     ]

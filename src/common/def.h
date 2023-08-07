@@ -21,6 +21,10 @@
 #define _DEF_OUTPUT_PULLUP    4
 #define _DEF_OUTPUT_PULLDOWN  5
 
+#define _DEF_UART1            0
+#define _DEF_UART2            1
+#define _DEF_UART3            2
+
 
 #ifndef max
 #define max(a,b) (((a) > (b)) ? (a) : (b))
