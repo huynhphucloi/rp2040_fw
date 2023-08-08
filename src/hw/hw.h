@@ -10,6 +10,7 @@
 #include "led.h"
 #include "gpio.h"
 #include "uart.h"
+#include "i2c.h"
 #include "cli.h"
 
 void hwInit(void);
